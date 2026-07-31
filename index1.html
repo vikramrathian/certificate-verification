@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Thanksgiving!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #3877e5;
+        }
+
+        img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin: 20px auto;
+            line-height: 1.5;
+        }
+
+        button {
+            background-color: #3877e5;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 30px;
+        }
+
+        button:hover {
+            background-color: #2859b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Thank You For Submitting</h1>
+        <img src="images/thanksgiving.jpg" alt="Thanksgiving image">
+        <p>Let's take a moment to be grateful for all the blessings in our lives. From our loved ones to good health, and from delicious food to a warm home, there's so much to appreciate. May this Thanksgiving be filled with joy, laughter, and togetherness.</p>
+        <button id="homeButton">Return to Main Website</button>
+    </div>
+    <script>
+        const homeButton = document.getElementById("homeButton");
+
+        homeButton.addEventListener("click", function() {
+            window.location.href = "your-main-website-url";  // Replace with your actual URL
+        });
+    </script>
+</body>
+</html>
