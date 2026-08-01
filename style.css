@@ -1,0 +1,1072 @@
+
+#typing-text {
+  overflow: hidden; /* Hide overflow to make the typing effect work */
+  border-right: 2px solid #000; /* Cursor effect */
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: red;
+  }
+  25% {
+    border-color: blue;
+  }
+  50% {
+    border-color: green;
+  }
+  75% {
+    border-color: yellow;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+#mscitdescriptiondiv,
+#item
+ {
+  border: 4px solid red; 
+  animation: borderAnimation 2s infinite; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* website and voice assisstant sectio------------------------- */
+
+.parentdiv{
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap:wrap; */
+  background-color: #000000;
+  margin-left: 13rem;
+}
+
+.image-container {
+  width: 68rem;
+  height: 31rem; 
+  margin-top: 2rem;
+  /* margin-left: 6rem; */
+  margin-left: 1rem;
+  background-color: #000000;
+}
+
+.image-container img {
+  width: 100%; /* Make the image fill the width of its container */
+  height: auto; /* Maintain aspect ratio */
+}
+.voice {
+  margin-top: 2rem;
+  /* margin-right: 6rem;   */
+  margin-right: 1rem;
+  margin-left: 5rem;
+}
+.voice img {
+  width: 57%; /* Make the image fill the width of its container */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.a-website,
+.project{
+  color: #ffffff;
+}
+
+.my-button {
+  background-color: transparent;
+  border-color: #ee27af;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  position: absolute; 
+  transform: translate(-50%, -50%);
+  margin-top: 2rem;
+  margin-left: 4.5rem;
+}
+
+.my-button:hover {
+  background-color: #e485eb; 
+}
+
+/* .......change font color all pages..................... */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+a{
+ color: #ffffff;
+}
+
+/* Set up the body */
+body {
+  font-family: sans-serif;
+}
+
+/* Style the header section */
+
+#hero {
+  padding-top: 6.25rem;
+  padding-bottom: 0.625rem;
+  padding-left: 12.5rem;
+}
+
+#hero h2 {
+  margin-bottom: 1rem;
+  font-size: 3.5em;
+}
+#hero h3 {
+  font-size: 2em;
+}
+#hero h2 span{
+  color: #e3b714; 
+}
+
+section {
+  padding: 2.5rem;
+}
+
+section h1,
+section h2 {
+  margin-bottom: 1.25rem;
+}
+
+section ul li {
+  margin-bottom:0.625rem;
+}
+
+
+/* ..................style .....................*/
+/*............hover effect on header section...........................*/
+
+nav ul li a {
+  text-decoration: none;
+  padding: 0.625rem 1.25rem;
+  display: inline-block;
+}
+
+#certificate-link:hover {
+  text-decoration: underline; /* Add underline on hover */ 
+}
+
+body {
+  background-color: black; /* Sets background color to black */
+  background-image: url('images/vikram.png'); /* Sets background image */
+  background-repeat: no-repeat; /* Prevents background image from repeating */
+  background-size: 40.625rem 40.625rem; 
+  background-position: 43.75rem 13.4rem;
+  /* Optionally, you can add more background properties such as background-size, background-position, etc. */
+}
+section h2 span{
+  color: #ffc800;
+}
+section h3{
+  font-size: 1.875rem;
+}
+#educationheading{
+  font-family: 'Roboto', sans-serif; /* Change font family as needed */  
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, rgb(43, 142, 255) 0%, rgb(245, 56, 56) 50%, rgb(255, 28, 251) 100%);
+  font-size: 1.5rem; /* Adjust size as needed */
+  font-weight: bold;
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 0.125rem;
+  border-bottom: 0.1rem solid #333; /* Add a bottom border */
+  padding-bottom: 0rem;
+  padding-left: 12rem;
+  padding-top: 2rem;
+
+}
+
+#mscitparentdiv{
+    display: grid;
+    background-color: #000000;
+    grid-template-columns: repeat(auto-fit, minmax(1.25rem, 1fr));
+    gap:0rem;
+    padding-left: 2rem;
+    padding-right: 30rem;
+    padding-top: 1rem;
+    padding-bottom:1rem;
+    transition: all 0.3s ease;
+}
+#mscitphotodiv{
+  background-position: 9.375rem 9.375rem;
+  background-repeat: no-repeat;  
+  padding-top: 2.3125rem;
+  padding-left: 8rem;
+}
+#mscitphotodiv img {
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+#mscitdescriptiondiv{
+  background-color:linear-gradient(to right, rgb(43, 142, 255) 0%, rgb(245, 56, 56) 50%, rgb(255, 28, 251) 100%);
+  padding: 1.25rem;
+  border-radius: 0.9375rem;  
+}
+#mscitdescriptiondiv{
+  margin-top: 0.625rem;
+  font-size: 1.125rem;
+} 
+/* .................2nd copy for m.com........... */
+
+#mscitparentdiv{
+  display: grid;
+  background-color: #000000;
+  grid-template-columns: repeat(auto-fit, minmax(1.25rem, 1fr));
+  gap:0rem;
+  padding-left: 2rem;
+  padding-right: 30rem;
+  padding-top: 1rem;
+  padding-bottom:1rem;
+}
+#mscitphotodiv{
+background-position: 9.375rem 9.375rem;/* left padding */
+background-repeat: no-repeat;  
+padding-top: 2.3125rem;
+padding-left: 8rem;
+}
+#mscitphotodiv img {
+max-width: 50%;
+height: auto;
+}
+
+#mscitdescriptiondiv{
+background-color: #f4e0c4;
+padding: 1.25rem;
+border-radius: 0.9375rem;  
+}
+#mscitdescriptiondiv{
+margin-top: 0.625rem;
+font-size: 1.125rem;
+}
+
+#mcomsection{
+  background-image:url('m.com.png'); 
+  background-size: 15%;
+  background-position: 9.375rem 2.5rem;/* left padding */
+  background-repeat: no-repeat;    
+}
+#mcomheading{
+  font-family: 'Roboto', sans-serif; /* Change font family as needed */
+  font-size: 2rem; /* Adjust size as needed */
+  font-weight: bold;
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 0.125rem;
+  padding-left: 28.75rem;    
+}
+#mcomdescription{
+  font-family: 'Roboto', sans-serif; /* Change font family as needed */
+  font-size: 1.25rem; /* Adjust size as needed */
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  padding-left: 28.75rem;
+}
+#pgdcasection{
+  background-image:url('pgdca.png'); 
+  background-size: 15%;
+  background-position: 9.375rem 5rem;/* left padding */
+  background-repeat: no-repeat;    
+}
+#pgdcaheading{
+  font-family: 'Roboto', sans-serif; /* Change font family as needed */
+  font-size: 2rem; /* Adjust size as needed */
+  font-weight: bold;
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 0.125rem;
+  padding-left: 28.75rem; 
+  padding-top: 3.125rem;   
+}
+#pgdcadescription{
+  font-family: 'Roboto', sans-serif; /* Change font family as needed */
+  font-size: 1.25rem; /* Adjust size as needed */
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  padding-left: 28.75rem;
+  padding-top: 0.6875rem;
+}
+#bcomsection{
+  background-image:url('b.com.png'); 
+  background-size: 15%;
+  background-position: 9.375rem 5rem;/* left padding */
+  background-repeat: no-repeat;    
+}
+#bcomheading{
+  font-family: 'Roboto', sans-serif; /* Change font family as needed */
+  font-size: 2rem; /* Adjust size as needed */
+  font-weight: bold;
+  text-transform: uppercase; /* Convert text to uppercase */
+  letter-spacing: 0.125rem;
+  padding-left: 28.75rem;    
+  padding-top: 3.125rem;
+}
+#bcomdescription{
+  font-family: 'Roboto', sans-serif; /* Change font family as needed */
+  font-size: 1.25rem; /* Adjust size as needed */
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  padding-left: 28.75rem;
+  padding-top: 0.6875rem;
+  padding-bottom: 6.25rem;
+  border-bottom: 0.125rem solid #333;
+}
+#onlinecoursesheading{
+  font-family: 'Roboto', sans-serif; /* Change font family as needed */
+  color: #ff6e6e; /* Heading color */
+  background-clip: text;
+-webkit-background-clip: text;  /* Safari */
+-webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, rgb(43, 142, 255) 0%, rgb(245, 56, 56) 50%, rgb(255, 28, 251) 100%);
+  font-size: 2rem; /* Adjust size as needed */
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  padding-left: 9.375rem;
+}
+#asagraphicdesignerheading{
+  font-family: 'Roboto', sans-serif; /* Change font family as needed */
+  color: #82cae9; /* Heading color */
+  font-size: 2rem; /* Adjust size as needed */
+  font-weight: bold;
+  letter-spacing: 0.125rem;
+  padding-left: 9.375rem;
+}
+
+
+#graphicdesignerdiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1.25rem, 1fr));
+  gap: 6.25rem;
+  padding-left: 12.5rem;
+  padding-right: 12.5rem;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+
+}
+
+#item {
+  background-color: #f0f0f0;
+  padding: 1.25rem;
+  border-radius: 0.9375rem;  
+}
+
+#item img {
+  max-width: 100%;
+  height: auto;
+}
+
+#item h3 {
+  margin-top: 0.625rem;
+  font-size: 1.125rem;
+}
+
+#certificate-link {
+  display: block;
+  margin-top: 0.625rem;
+  text-decoration: none;
+  color: blue;
+}
+#asacommercestudentdiv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1.25rem, 1fr));
+  gap: 6.25rem;
+  padding-left: 12.5rem;
+  padding-right: 12.5rem;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+
+}
+#commerceitem{
+  background-color: #130202;
+  padding: 1.25rem;
+  border-radius: 0.9375rem;  
+}
+#commerceitem img {
+  max-width: 100%;
+  height: auto;
+}
+
+#commerceitem h3 {
+  margin-top: 0.625rem;
+  font-size: 1.125rem;
+}
+
+#commerceitem1{
+  background-color: #130202;
+  padding: 1.25rem;
+  border-radius: 0.9375rem;  
+}
+#commerceitem1 img {
+  max-width: 100%;
+  height: auto;
+}
+
+#commerceitem1 h3 {
+  margin-top: 0.625rem;
+  font-size: 1.125rem;
+}
+
+
+#welleducationlogoimagesize{
+width: 11.5625rem;
+height: auto;
+}
+#quotespostersize{
+  width: 11.875rem;
+  height: auto;
+}
+#teachersdaypostersize{
+  width: 11.875rem;
+  height: auto;
+}
+#videosize{
+  width: 100%; /* Adjust to your desired width */
+  max-width: 50rem; /* Set maximum width to maintain responsiveness */
+  height: auto;
+}
+
+#aboutmediv {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1.25rem, 1fr));
+  gap: 6.25rem;
+  padding-left: 12.5rem;
+  padding-right: 12.5rem;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
+
+}
+#aboutmechild{
+  background-color: #f0f0f0;
+  padding: 1.25rem;
+  border-radius: 0.9375rem;  
+}
+#aboutmechild h3 {
+  margin-top: 0.625rem;
+  font-size: 1.125rem;
+  color: #6600ff;
+}
+#aboutmedescriptioncolor{
+  color: #000000;
+}
+/* ......................contact me section..................... */
+
+.container {
+  max-width:  37.5rem;
+  margin: 3.125rem auto;
+  padding: 1.25rem;
+  background-color: #fff;
+  border-radius: 1.25rem;
+  box-shadow: 0px 0px 1.25rem rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 0.625rem;
+  margin-bottom: 1.25rem;
+  border-radius: 0.3125rem;
+  border: 0.0625rem solid #ccc;
+  box-sizing: border-box;
+}
+textarea {
+  resize: none;
+  height: 9.375rem;
+}
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 0.9375rem 1.25rem;
+  border: none;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.submit-container {
+  text-align: center;
+}
+.shapes {
+  position: absolute;
+  top: -2.5rem;
+  left: -2.5rem;
+  z-index: -1;
+}
+.shape1 {
+  width: 6.25rem;
+  height: 6.25rem;
+  background-color: #ffcc00;
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+.shape2 {
+  width: 5rem;
+  height: 5rem;
+  background-color: #ff6666;
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+.shape3 {
+  width: 3.75rem;
+  height: 3.75rem;
+  background-color: #66ccff;
+  border-radius: 50%;
+  transform: rotate(45deg);
+}
+
+/* ..............Styles for Social Media Section................ */
+#SocialMedia {
+  text-align: center;
+}
+
+#SocialMedia h2 {
+  color: white;
+  font-size: 1.875rem;
+  margin-bottom: 1.875rem;
+  padding-top: 6.25rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.9375rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-0.3125rem);
+}
+
+.social-icons img {
+  width: 1.875rem;
+  height: auto;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 0.625rem;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons img:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.social-icons span {
+  display: block;
+  margin-top: 0.625rem;
+}
+
+/* Specific icon styling */
+.social-icons a[href*="facebook"] img {
+  background-color: #ffffff;
+}
+
+.social-icons a[href*="twitter"] img {
+  background-color: #ffffff;
+}
+
+.social-icons a[href*="linkedin"] img {
+  background-color: #ffffff;
+}
+
+.social-icons a[href*="youtube"] img {
+  background-color: #ffffff;
+}
+
+.social-icons a[href*="snapchat"] img {
+  background-color: #ffffff;
+}
+
+.social-icons a[href*="telegram"] img {
+  background-color: #ffffff;
+}
+
+.social-icons a[href*="instagram"] img {
+  background-color: #ffffff;
+}
+
+
+/* ...............footer............................................... */
+
+.footer {
+  background-color: #000000;
+
+}
+
+#certificate-link {
+  display: inline-block;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border-radius: 0.9375rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0px 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
+}
+
+#certificate-link:hover {
+  transform: translateY(-0.125rem);
+  box-shadow: 0px 0.375rem 0.625rem rgba(0, 0, 0, 0.2);
+  background-color: #45a049;
+} 
+#htmlcsscourseheading{
+color: #000;
+}
+#englishcoursethumbnailsize{
+width: 21.875rem;
+height: auto;
+}
+
+#mscitparentdiv:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+#mscitphotodiv:hover img {
+  transform: scale(1.05);
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #ffffff; /* Default color */
+  position: relative;
+}
+
+.nav ul li a:hover {
+  color: #f6b724; /* Hover color */
+}
+
+.nav ul li a:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #7d13e0; /* Underline color */
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.4s ease-in-out;
+}
+
+.nav ul li a:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.nav {
+  background-image: url('logo.png'); 
+  background-position: 0.625rem;
+  background-size: 10%;
+  background-repeat: no-repeat;
+  padding: 4.375rem;
+  padding-top: 4.375rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.nav,
+.nav .nav-links {
+  display: flex;
+  align-items:center;
+}
+.nav {
+  justify-content: flex-end;
+
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav .nav-links {
+  column-gap: 1.7rem;
+  list-style: none;
+}
+.nav .nav-links a {
+  transition: all 0.2s linear;
+}
+
+.nav .navOpenBtn,
+.nav .navCloseBtn {
+  display: none;
+}
+
+.nav.openSearch .nav-links a {
+  opacity: 0;
+  pointer-events: none;
+}
+.nav .search-icon {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+.nav .search-box {
+  position: absolute;
+  right: 250px;
+  height: 45px;
+  max-width: 555px;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.2s linear;
+}
+.nav.openSearch .search-box {
+  opacity: 1;
+  pointer-events: auto;
+}
+.search-box .search-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  left: 15px;
+  color: #4a98f7;
+  transform: translateY(-50%);
+}
+.search-box input {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 0 15px 0 45px;
+}
+
+@media screen and (max-width: 1160px) {
+
+  .nav .search-box {
+    right: 150px;
+  }
+}
+@media screen and (max-width: 950px) {
+
+  .nav .search-box {
+    right: 100px;
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav .search-box {
+    top: calc(2% + 8px);
+    max-width: calc(65% - 20px);
+    right: 50%;
+    transform: translateX(50%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav .navOpenBtn,
+  .nav .navCloseBtn {
+    display: block;
+  }
+  .nav {
+    padding-top: 2rem;
+    padding-right: 3rem;
+    padding-bottom: 0rem;
+  }
+
+ .nav .nav-links {
+    position: fixed;
+    top: 0rem;
+    left: -100%;
+    height: 100%;
+    max-width: 280px;
+    width: 100%;
+    padding-top: 100px;
+    row-gap: 30px;
+    flex-direction: column;
+    background-color: #11101d;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    z-index: 100;
+  } 
+  .nav.openNav .nav-links {
+    left: 0;
+  }
+  .nav .navOpenBtn {
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    padding-right: 17rem;
+  }
+  .nav .navCloseBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .nav {
+    background-position: 4rem 2.3rem;
+    background-size: 15%;
+  }
+
+}
+
+ /* ...................mobile scree coding.........................  */
+
+@media screen and (max-width: 600px) {
+
+body {
+  background-color: black; 
+  background-image: url('vikram.png'); 
+  background-repeat: no-repeat;  
+  background-size: 15rem auto; 
+  background-position: 11rem 5rem;
+}
+
+#hero{
+    font-size: 0.40rem;
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+  }
+  #hero h3{
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+  }
+
+#educationheading{
+  font-size: 0.60rem; 
+  padding-bottom: 0rem;
+  padding-left: 1rem;
+  padding-top: 2.3rem;
+  margin-top: 0rem;
+}
+#mscitparentdiv{
+  display: inline-block;
+  padding-left: 1rem; /* Adjust padding for smaller screens */
+  padding-right: 1rem; /* Adjust padding for smaller screens */
+  justify-content: center;
+  align-items: center;
+  }
+#mscitphotodiv img {
+    max-width: 50%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #mscitdescriptiondiv{
+    padding-left: 0.50rem;
+    padding-top: 0.10rem;
+    border-radius: 0.9375rem;  
+    margin-top: 0.625rem;
+    font-size: 0.80rem;
+  } 
+#asagraphicdesignerheading,
+#onlinecoursesheading{
+  font-size: 1rem;
+  padding-left: 1rem;
+}
+
+#graphicdesignerdiv {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  size: 50%;
+
+}
+
+#item {
+  background-color: #000000;
+  padding: 1rem;
+  padding-left: 1rem;
+}
+
+#item img {
+  max-width: 50%;
+  height: auto;
+  padding-left: 0rem;
+}
+
+#item h3 {
+  font-size: 0.80rem;
+  color: #ffffff;
+}
+#certificate-link {
+  display:flexbox;
+  font-size: 0.70rem;
+  margin-top: 0rem;
+}
+
+
+
+#asacommercestudentdiv {
+  display:contents;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+#commerceitem img {
+  max-width: 50%;
+  height: auto;
+}
+#commerceitem1 img {
+  max-width: 50%;
+  height: auto;
+}
+
+#commerceitem h3 {
+  font-size: 0.80rem;
+}
+#commerceitem1 h3 {
+  font-size: 0.80rem;
+}
+#commerceitem1 br{
+  display: none;
+}
+
+
+
+#aboutmediv {
+  display:BLOCK;
+  padding: 1.25rem;  
+}
+#aboutmechild{
+  margin-bottom: 2rem;
+}
+#aboutmechild h3 {
+  font-size: 0.8rem;
+  color: #6600ff;
+}
+
+.container {
+  max-width:  17rem;
+}
+.social-icons img {
+  width: 1rem;
+}
+#SocialMedia h2 {
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 1.875rem;
+  padding-top: 6.25rem;
+}
+
+#downloadresumeheading{
+  display: block;
+}
+
+.footer {
+  font-size: 0.6rem;
+  padding-left: 7rem;
+}
+#blankdiv br{
+display: block;
+}
+#htmlcsscourseheading{
+font-size: 0.95rem;
+}
+
+
+
+
+/* website and voice assisstant section------------------------- */
+
+.parentdiv{
+  display:grid;
+  margin-left: 0.3rem;
+}
+
+.image-container {
+  width: 21rem;
+  height: 18rem; 
+}
+.voice{
+  margin-left: 1rem;
+}
+.voice img {
+  width: 46%; 
+  height: auto; 
+}
+
+.a-website,
+.project{
+  color: #ffffff;
+}
+
+.my-button {
+    display:flexbox;
+    font-size: 0.70rem;
+    margin-top: 1rem;
+    padding: 0.625rem 1.25rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color:transparent;
+    border-color: #ee27af;
+    border-radius: 0.9375rem;
+    cursor: pointer;
+    margin-left: 3rem;
+  }
+  
+  .my-button:hover{      
+    background-color: #e485eb;
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+
